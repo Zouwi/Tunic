@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.loading {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    background: white;
+    position: absolute;
+    z-index: 1;
+    transition-duration: 0.3s;
+}
+
+.logo {
+    width: 500px;
+    height: 500px;
+    background-image: url("./logo/Tunic_Logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 400px auto auto auto;
+}
